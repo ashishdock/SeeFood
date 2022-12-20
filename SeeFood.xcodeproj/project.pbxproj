@@ -13,6 +13,7 @@
 		DB25107E2951E8BE004FD815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB25107C2951E8BE004FD815 /* Main.storyboard */; };
 		DB2510802951E8C0004FD815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB25107F2951E8C0004FD815 /* Assets.xcassets */; };
 		DB2510832951E8C0004FD815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2510812951E8C0004FD815 /* LaunchScreen.storyboard */; };
+		DB25108B2951E9A1004FD815 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DB25108A2951E9A1004FD815 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DB25107F2951E8C0004FD815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB2510822951E8C0004FD815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB2510842951E8C0004FD815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB25108A2951E9A1004FD815 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DB25107F2951E8C0004FD815 /* Assets.xcassets */,
 				DB2510812951E8C0004FD815 /* LaunchScreen.storyboard */,
 				DB2510842951E8C0004FD815 /* Info.plist */,
+				DB25108A2951E9A1004FD815 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB25107B2951E8BE004FD815 /* ViewController.swift in Sources */,
+				DB25108B2951E9A1004FD815 /* Inceptionv3.mlmodel in Sources */,
 				DB2510772951E8BE004FD815 /* AppDelegate.swift in Sources */,
 				DB2510792951E8BE004FD815 /* SceneDelegate.swift in Sources */,
 			);
